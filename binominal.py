@@ -1,7 +1,7 @@
 import math
 import numpy as np
 def nCk(n, k) : 
-    return np.prod( [(N-k+i)/i for i in range(1, k+1)] )
+    return np.prod( [(n-k+i)/i for i in range(1, k+1)] )
 
 def prob(k, p, N) : 
     '''p(k)'''
